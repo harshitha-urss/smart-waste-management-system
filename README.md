@@ -22,7 +22,7 @@ This project proposes an **AI-driven smart waste management system** that:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Automate waste classification using deep learning
 - Handle real-world ambiguity (mixed waste)
@@ -32,7 +32,7 @@ This project proposes an **AI-driven smart waste management system** that:
 
 ---
 
-## 🧠 System Workflow
+## System Workflow
 
 1. User uploads an image via the web interface  
 2. AI model predicts ImageNet labels  
@@ -45,7 +45,7 @@ This project proposes an **AI-driven smart waste management system** that:
 
 ---
 
-## 🗑️ Waste Categories Supported
+## Waste Categories Supported
 
 | Category | Examples |
 |--------|---------|
@@ -59,7 +59,7 @@ This project proposes an **AI-driven smart waste management system** that:
 
 ---
 
-## 🤖 AI Model
+## AI Model
 
 - **Model:** MobileNetV2 (pre-trained on ImageNet)
 - **Framework:** TensorFlow / Keras
@@ -70,7 +70,7 @@ This project proposes an **AI-driven smart waste management system** that:
 
 ---
 
-## 🔗 Blockchain (Software-Based)
+## Blockchain (Software-Based)
 
 A lightweight blockchain-inspired ledger ensures transparency and immutability.
 
@@ -87,7 +87,7 @@ This prevents tampering and provides accountability.
 
 ---
 
-## 🌐 IoT Integration (Simulated)
+## IoT Integration (Simulated)
 
 - Software-based IoT simulation
 - Bin opens based on classification
@@ -101,7 +101,7 @@ Can be extended to real IoT hardware.
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 ### Backend
 - Python
@@ -131,7 +131,7 @@ https://smart-waste-management-system-bpyt.onrender.com/
 - Globally accessible
 
 ---
-## 🔮 Future Scope
+## Future Scope
 - Train a dedicated waste classification model for higher accuracy.
 - Integrate real IoT hardware such as smart bins and sensors.
 - Implement blockchain smart contracts for secure data handling.
@@ -145,6 +145,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## 👩‍💻 Author
-**Harshitha URSS**  
+## Author
+**HARSHITHA M V**  
 AI & ML Engineering Student  
