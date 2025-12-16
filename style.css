@@ -36,13 +36,13 @@ h2 {
 
 /* ARCHITECTURE IMAGE */
 .architecture-img {
-    width: 60%;
-    max-width: 650px;
+    width: 55%;
+    max-width: 500px;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 25px auto;
     border-radius: 12px;
-    box-shadow: 0 0 20px cyan;
+    box-shadow: 0 0 18px cyan;
 }
 
 /* LISTS */
