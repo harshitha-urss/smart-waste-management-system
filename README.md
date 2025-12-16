@@ -30,9 +30,9 @@ engineering final-year projects and MS (AI / CS) profiles.
     - Stores user actions and classification results
 
 -  **Reward & Penalty System**
-  - Tokens awarded for correct segregation
-  - Rejection for incorrect or mixed waste
-  - User activity tracking
+      - Tokens awarded for correct segregation
+      - Rejection for incorrect or mixed waste
+      - User activity tracking
 
 -  **Web Interface**
     - Image upload from browser
@@ -88,7 +88,9 @@ engineering final-year projects and MS (AI / CS) profiles.
 ---
 
 ##  System Architecture
-  User → Web UI → FastAPI Backend
+       User
+        ↓
+  FastAPI Backend
         ↓
   AI Image Model
         ↓
