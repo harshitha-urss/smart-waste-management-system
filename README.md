@@ -8,9 +8,9 @@ engineering final-year projects and MS (AI / CS) profiles.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🧠 **AI Image Classification**
+-  **AI Image Classification**
   - Uses MobileNetV2 (ImageNet pretrained)
   - Classifies waste into:
     - Wet Waste
@@ -24,17 +24,17 @@ engineering final-year projects and MS (AI / CS) profiles.
   - Rejects mixed or unclear waste
   - Color-based bin logic (Green, Brown, Blue, Black)
 
-- ⛓️ **Blockchain-Style Logging**
+-  **Blockchain-Style Logging**
   - Immutable, append-only ledger
   - Hash-chained logs for tamper resistance
   - Stores user actions and classification results
 
-- 🎁 **Reward & Penalty System**
+-  **Reward & Penalty System**
   - Tokens awarded for correct segregation
   - Rejection for incorrect or mixed waste
   - User activity tracking
 
-- 🌐 **Web Interface**
+-  **Web Interface**
   - Image upload from browser
   - Real-time classification results
   - Live logs display
@@ -42,7 +42,7 @@ engineering final-year projects and MS (AI / CS) profiles.
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 # Smart Waste Management System using AI, IoT (Software-Based), and Blockchain
 
 A full-stack prototype that demonstrates **AI-based waste classification**,  
@@ -55,7 +55,7 @@ engineering final-year projects and MS (AI / CS) profiles.
 
 ## 🚀 Features
 
-- 🧠 **AI Image Classification**
+-  **AI Image Classification**
   - Uses MobileNetV2 (ImageNet pretrained)
   - Classifies waste into:
     - Wet Waste
@@ -64,22 +64,22 @@ engineering final-year projects and MS (AI / CS) profiles.
     - E-Waste
     - Cannot Be Classified (mixed/unclear)
 
-- 🗑️ **Smart Bin Simulation (IoT – Software Based)**
+-  **Smart Bin Simulation (IoT – Software Based)**
   - Automatically simulates correct bin opening
   - Rejects mixed or unclear waste
   - Color-based bin logic (Green, Brown, Blue, Black)
 
-- ⛓️ **Blockchain-Style Logging**
+-  **Blockchain-Style Logging**
   - Immutable, append-only ledger
   - Hash-chained logs for tamper resistance
   - Stores user actions and classification results
 
-- 🎁 **Reward & Penalty System**
+-  **Reward & Penalty System**
   - Tokens awarded for correct segregation
   - Rejection for incorrect or mixed waste
   - User activity tracking
 
-- 🌐 **Web Interface**
+-  **Web Interface**
   - Image upload from browser
   - Real-time classification results
   - Live logs display
@@ -87,7 +87,7 @@ engineering final-year projects and MS (AI / CS) profiles.
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 User → Web UI → FastAPI Backend
 ↓
 AI Image Model
@@ -101,7 +101,7 @@ Blockchain-style Ledger Logs
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer        | Technology |
 |-------------|------------|
