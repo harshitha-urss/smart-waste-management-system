@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+  Smart Waste Management System using AI, IoT (Software-Based), and Blockchain — Demo
+  </title>
+
+  <style>
+  body {
+    font-family: Inter, Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #0d0d0d;   /* BLACK BACKGROUND */
+    color: #eaeaea;        /* light text */
+  }
+
+  /* 🔥 BIG MAIN TITLE */
+  h1 {
+    font-size: 48px;          /* BIG */
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 35px;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 16px;
+    color: #cfcfcf;
+  }
+
+  input, button {
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 10px 14px;
+    border-radius: 6px;
+  }
+
+  button {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  button:hover {
+    background: #1a1a1a;
+  }
+
+  #result {
+    white-space: pre-wrap;
+    background: #0f0f0f;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+    border: 1px solid #222;
+  }
+
+  #logs {
+    background: #000;
+    color: #00ff6a;
+    padding: 14px;
+    border-radius: 8px;
+    height: 260px;
+    overflow: auto;
+    border: 1px solid #222;
+  }
+</style>
+
+</head>
+<body>
+  <h1>
+  Smart Waste Management System using AI, IoT (Software-Based), and Blockchain
+  </h1>
+
+  <p style="font-size:10px;margin-top:-5px;">
+  Demo — Camera / Image Upload
+  </p>
+
+  <p>Choose an image (photo of a waste item) — the backend will classify and simulate bin opening.</p>
+
+  <input id="file" type="file" accept="image/*" />
+  <input id="userid" placeholder="user id (demo_user)" style="margin-left:8px" />
+  <button id="upload">Upload & Classify</button>
+
+  <br><br>
+  <small style="color:#666">
+    Supported: Wet, Dry, Recyclable, E-Waste.  
+    Mixed or unclear waste → Cannot be classified.
+  </small>
+
+  <h3>Result</h3>
+  <div id="result">No results yet.</div>
+
+  <h3>Recent Logs (latest entries)</h3>
+  <pre id="logs">logs will appear here...</pre>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
