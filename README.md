@@ -25,9 +25,9 @@ engineering final-year projects and MS (AI / CS) profiles.
   - Color-based bin logic (Green, Brown, Blue, Black)
 
 -  **Blockchain-Style Logging**
-  - Immutable, append-only ledger
-  - Hash-chained logs for tamper resistance
-  - Stores user actions and classification results
+    - Immutable, append-only ledger
+    - Hash-chained logs for tamper resistance
+    - Stores user actions and classification results
 
 -  **Reward & Penalty System**
   - Tokens awarded for correct segregation
@@ -35,10 +35,10 @@ engineering final-year projects and MS (AI / CS) profiles.
   - User activity tracking
 
 -  **Web Interface**
-  - Image upload from browser
-  - Real-time classification results
-  - Live logs display
-  - Dark-mode UI
+    - Image upload from browser
+    - Real-time classification results
+    - Live logs display
+    - Dark-mode UI
 
 ---
 
