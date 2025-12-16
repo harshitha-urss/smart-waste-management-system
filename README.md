@@ -88,17 +88,15 @@ engineering final-year projects and MS (AI / CS) profiles.
 ---
 
 ##  System Architecture
-       User
-        ↓
-  FastAPI Backend
-        ↓
-  AI Image Model
-        ↓
-  Waste Category Mapper
-        ↓
-  IoT Bin Simulation (Logic)
-        ↓
-  Blockchain-style Ledger Logs
+User → Web UI → FastAPI Backend
+↓
+AI Image Model
+↓
+Waste Category Mapper
+↓
+IoT Bin Simulation (Logic)
+↓
+Blockchain-style Ledger Logs
 
 
 ---
